@@ -2,7 +2,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.tennaito</groupId>
+    <groupId>io.sunshower</groupId>
     <artifactId>rsql-jpa</artifactId>
     <version>2.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -10,8 +10,12 @@
     <!--//////////////////// ABOUT ////////////////////-->
     <name>RSQL-JPA</name>
     <inceptionYear>2015</inceptionYear>
-	<description>A application used to translate  RSQL nodes to JPA Criteria Query.</description>
-    <url>http://github.com/tennaito/rsql-jpa</url>
+	<description>
+        A application used to translate  RSQL nodes to JPA Criteria Query.
+        This project is forked from https://github.com/tennaito/rsql-jpa as that project does not seem to
+        be currently maintained.
+    </description>
+    <url>http://github.com/sunshower-io/rsql-jpa</url>
 
     <!--//////////////////// LICENSE ////////////////////-->
     <licenses>
