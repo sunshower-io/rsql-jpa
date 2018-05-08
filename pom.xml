@@ -34,9 +34,9 @@
     
 	<!--//////////////////// SCM    ////////////////////-->
     <scm>
-        <url>https://github.com/tennaito/rsql-jpa/</url>
-        <connection>scm:git:https://github.com/tennaito/rsql-jpa.git</connection>
-        <developerConnection>scm:git:https://github.com/tennaito/rsql-jpa.git</developerConnection>
+        <url>https://github.com/sunshower/rsql-jpa/</url>
+        <connection>scm:git:https://github.com/sunshower/rsql-jpa.git</connection>
+        <developerConnection>scm:git:https://github.com/sunshower/rsql-jpa.git</developerConnection>
     	<tag>HEAD</tag>
   </scm>
 
@@ -271,7 +271,7 @@
     <!--//////////////////// DISTRIBUTION ////////////////////-->
 	<distributionManagement>
 		<snapshotRepository>
-			<id>ossrh</id>
+			<id>sunshower-oss-repo</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
@@ -281,10 +281,10 @@
 	</distributionManagement>	
 	<ciManagement>
 		<system>travis</system>
-		<url>https://travis-ci.org/tennaito/rsql-jpa</url>
+		<url>https://travis-ci.org/sunshower/rsql-jpa</url>
 	</ciManagement>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/tennaito/rsql-jpa/issues</url>
+		<url>https://github.com/sunshower/rsql-jpa/issues</url>
 	</issueManagement>	
 </project>
